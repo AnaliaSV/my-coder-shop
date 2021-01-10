@@ -33,16 +33,20 @@ export default function ItemDetail({item, loading, contador, setContador, handle
                         </Link> 
                         <div>  
                             <Link to={'/'} className='links'> 
-                                <button className='btn-detail margin-bottom-400px margin-left-detail'> Volver a Home</button>
+                                <button className='btn-detail margin-bottom-400px'> Volver a Home</button>
                             </Link>
                         </div>
                         </div>    
-                            :<div>
-                                <button className='btn-detail'  onClick={()=>setContador(contador+1)}>Agregar</button>                           
-                                <Link to={'/'} className='links'> 
-                                     <button className='btn-detail margin-bottom-400px margin-left-detail'> Volver a Home</button>
-                                </Link>
+                            :
+                            <div>
+                                <button className='btn-detail'  onClick={()=>setContador(contador+1)}>Agregar</button>                                      
+                                <div>                                                         
+                                    <Link to={'/'} className='links'> 
+                                        <button className='btn-detail margin-bottom-400px'> Volver a Home</button>
+                                    </Link>
+                                </div>
                              </div>
+
                         }
                     </div>   
                 </div>

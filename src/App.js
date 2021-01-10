@@ -8,7 +8,7 @@ import ItemDetailContainer from './Containers/ItemDetailContainer';
 import CartContext  from './Context/CartContext';
 import CategoryContainer from './Containers/CategoryContainer';
 import CheckOutContainer from "./Containers/CheckOutContainer/CheckOutContainer";
-import Saludo from './Components/Saludo'
+import Saludo from './Components/Saludo/Saludo'
 import CatContainer from './Containers/CatContainer'
 import Footer from './Components/footer/footer'
 import './App.css';
